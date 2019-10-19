@@ -65,7 +65,7 @@ public class Preferences {
     }
 
     public static boolean showDigitalClock(Context context) {
-        return getPrefs(context).getBoolean(Constants.CLOCK_DIGITAL, true);
+        return getPrefs(context).getBoolean(Constants.CLOCK_DIGITAL, false);
     }
 
     public static boolean showAlarm(Context context) {
